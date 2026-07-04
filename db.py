@@ -1,7 +1,7 @@
 import psycopg2
 import os
 
-DATABASE_URL = os.getenv("DATABASE_URL", "")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://adrian:YMAE0aLvaWg88vrnkjgKyQ@local-canary-17622.jxf.gcp-us-central1.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full")
 
 # =========================
 # CONEXIÓN
